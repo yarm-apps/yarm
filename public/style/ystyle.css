@@ -1,0 +1,149 @@
+/* General */
+.inputID {
+    /* color: 	#696969; */
+    width: 20;
+    font-size: 12;
+}
+
+.Title {
+    font-size: 30;
+}
+
+.Section {
+    font-size: 25;
+}
+
+.Requirement {
+    font-size: 14;
+}
+
+
+/* yTitle */
+
+.ytitle {
+    padding: 30px 0;
+}
+
+.ytitle input,
+.ytitle [contenteditable] {
+    width: 100%;
+    padding: 2px;
+    border: 0px solid #e4e4e4;
+    background: #fff;
+    box-sizing: border-box;
+    border-radius: 3px;
+    outline: none;
+    text-align: center;
+}
+
+.ytitle img {
+    max-width: 100%;
+    margin-bottom: 15px;
+}
+
+.ytitle.withBorder img {
+    border: 1px solid #e8e8eb;
+}
+
+.ytitle.withBackground {
+    background: #eff2f5;
+    padding: 10px;
+}
+
+.ytitle.withBackground img {
+    display: block;
+    max-width: 60%;
+    margin: 0 auto 15px;
+}
+
+/* ySection */
+
+.ysection {
+    padding: 2px 0;
+}
+
+.ysection input,
+.ysection [contenteditable] {
+    width: 100%;
+    /* padding: 10px; */
+    border: 0px solid #e4e4e4;
+    background: #fff;
+    box-sizing: border-box;
+    border-radius: 3px;
+    outline: none;
+}
+
+.ysection img {
+    max-width: 100%;
+    margin-bottom: 15px;
+}
+
+.ysection.withBorder img {
+    border: 1px solid #e8e8eb;
+}
+
+.ysection.withBackground {
+    background: #eff2f5;
+    padding: 10px;
+}
+
+.ysection.withBackground img {
+    display: block;
+    max-width: 60%;
+    margin: 0 auto 15px;
+}
+
+/* yRequirement */
+
+.yrequirement {
+    padding: 2px 0;
+}
+
+.yrequirement input,
+.yrequirement [contenteditable] {
+    width: 100%;
+    /* padding: 10px; */
+    border: 0px solid #e4e4e4;
+    background: #fff;
+    box-sizing: border-box;
+    border-radius: 3px;
+    outline: none;
+}
+
+
+.yrequirement .Title {
+    font-size: 16;
+}
+
+.yrequirement img {
+    max-width: 100%;
+    margin-bottom: 15px;
+}
+
+.yrequirement.withBorder img {
+    border: 1px solid #e8e8eb;
+}
+
+.yrequirement.withBackground {
+    background: #eff2f5;
+    padding: 10px;
+}
+
+.ysection.withBackground img {
+    display: block;
+    max-width: 60%;
+    margin: 0 auto 15px;
+}
+
+/* Tools */
+.yTitleToolIcon {
+    content: url('../icons/title.svg')
+}
+
+.ySectionToolIcon {
+    content: url('../icons/section.svg')
+}
+
+.yRequirementToolIcon {
+    content: url('../icons/requirement.svg')
+}
