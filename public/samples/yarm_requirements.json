@@ -1,0 +1,322 @@
+{
+    "data": {
+        "time": 1634894932300,
+        "blocks": [
+            {
+                "id": "YREQ",
+                "type": "ytitle",
+                "data": {
+                    "id": "YREQ",
+                    "title": "Yarm requirements"
+                }
+            },
+            {
+                "id": "GEN",
+                "type": "ysection",
+                "data": {
+                    "id": "GEN",
+                    "header": "General requirements"
+                }
+            },
+            {
+                "id": "TTL",
+                "type": "ysection",
+                "data": {
+                    "id": "TTL",
+                    "header": "Specification for Title"
+                }
+            },
+            {
+                "id": "TTL.1",
+                "type": "yrequirement",
+                "data": {
+                    "id": "TTL.1",
+                    "content": "Plugin shall look similar to Word/GDocs Title style",
+                    "title": ""
+                }
+            },
+            {
+                "id": "TTL.2",
+                "type": "yrequirement",
+                "data": {
+                    "id": "TTL.2",
+                    "content": "Only one title should be in the document",
+                    "title": ""
+                }
+            },
+            {
+                "id": "SEC",
+                "type": "ysection",
+                "data": {
+                    "id": "SEC",
+                    "header": "Specification for Sections"
+                }
+            },
+            {
+                "id": "SEC.1",
+                "type": "yrequirement",
+                "data": {
+                    "id": "SEC.2",
+                    "content": "Sections should have 6 levels of headings",
+                    "title": ""
+                }
+            },
+            {
+                "id": "REQ",
+                "type": "ysection",
+                "data": {
+                    "id": "REQ",
+                    "header": "Requirements related requirements"
+                }
+            },
+            {
+                "id": "r9tPAS5xxZ",
+                "type": "ysection",
+                "data": {
+                    "id": "",
+                    "header": "Functional requirements"
+                }
+            },
+            {
+                "id": "gqy_qBq6bL",
+                "type": "yrequirement",
+                "data": {
+                    "id": "",
+                    "content": "System should allow to change block types in Editor",
+                    "title": ""
+                }
+            },
+            {
+                "id": "xC1Kejkhxr",
+                "type": "yrequirement",
+                "data": {
+                    "id": "",
+                    "content": "Newly added block type should depend on previous block.",
+                    "title": ""
+                }
+            },
+            {
+                "id": "oa9jW9cn0M",
+                "type": "yrequirement",
+                "data": {
+                    "id": "",
+                    "content": "Press on Enter - work inside block. Cmd+Enter - add new block",
+                    "title": ""
+                }
+            },
+            {
+                "id": "CpMr6tnzEk",
+                "type": "yrequirement",
+                "data": {
+                    "id": "",
+                    "content": "Ctrl+S export to file",
+                    "title": ""
+                }
+            },
+            {
+                "id": "HXqUOK9Xj_",
+                "type": "yrequirement",
+                "data": {
+                    "id": "",
+                    "content": "Should be possible to change keybindings",
+                    "title": ""
+                }
+            }
+        ],
+        "version": "2.23.0-rc.0"
+    },
+    "history": [
+        [
+            "blocks",
+            13,
+            {
+                "i": {
+                    "type": "paragraph",
+                    "id": "YS71KslP7B",
+                    "data": {
+                        "text": "",
+                        "id": "YS71KslP7B"
+                    }
+                }
+            }
+        ],
+        [
+            "blocks",
+            13,
+            {
+                "r": {
+                    "type": "paragraph",
+                    "id": "YS71KslP7B",
+                    "data": {
+                        "text": "",
+                        "id": "YS71KslP7B"
+                    }
+                },
+                "i": {
+                    "type": "paragraph",
+                    "id": "YS71KslP7B",
+                    "data": {
+                        "text": "Possibi",
+                        "id": "YS71KslP7B"
+                    }
+                }
+            }
+        ],
+        [
+            "blocks",
+            13,
+            {
+                "r": true
+            }
+        ],
+        [
+            "blocks",
+            13,
+            {
+                "i": {
+                    "type": "yrequirement",
+                    "id": "HXqUOK9Xj_",
+                    "data": {
+                        "id": "",
+                        "content": "Should be possible to change keybindings",
+                        "title": ""
+                    }
+                }
+            }
+        ],
+        [
+            "blocks",
+            13,
+            {
+                "r": {
+                    "type": "yrequirement",
+                    "id": "HXqUOK9Xj_",
+                    "data": {
+                        "id": "",
+                        "content": "Should be possible to change keybindings",
+                        "title": ""
+                    }
+                },
+                "i": {
+                    "type": "yrequirement",
+                    "id": "HXqUOK9Xj_",
+                    "data": {
+                        "id": "",
+                        "content": "Should be possible to change keybindings",
+                        "title": ""
+                    }
+                }
+            }
+        ],
+        [
+            "blocks",
+            13,
+            {
+                "r": {
+                    "type": "yrequirement",
+                    "id": "HXqUOK9Xj_",
+                    "data": {
+                        "id": "",
+                        "content": "Should be possible to change keybindings",
+                        "title": ""
+                    }
+                },
+                "i": {
+                    "type": "yrequirement",
+                    "id": "HXqUOK9Xj_",
+                    "data": {
+                        "id": "",
+                        "content": "Should be possible to change keybindings",
+                        "title": ""
+                    }
+                }
+            }
+        ],
+        [
+            "blocks",
+            13,
+            {
+                "r": {
+                    "type": "yrequirement",
+                    "id": "HXqUOK9Xj_",
+                    "data": {
+                        "id": "",
+                        "content": "Should be possible to change keybindings",
+                        "title": ""
+                    }
+                },
+                "i": {
+                    "type": "yrequirement",
+                    "id": "HXqUOK9Xj_",
+                    "data": {
+                        "id": "",
+                        "content": "Should be possible to change keybindings",
+                        "title": ""
+                    }
+                }
+            }
+        ],
+        [
+            "blocks",
+            13,
+            {
+                "r": {
+                    "type": "yrequirement",
+                    "id": "HXqUOK9Xj_",
+                    "data": {
+                        "id": "",
+                        "content": "Should be possible to change keybindings",
+                        "title": ""
+                    }
+                },
+                "i": {
+                    "type": "yrequirement",
+                    "id": "HXqUOK9Xj_",
+                    "data": {
+                        "id": "",
+                        "content": "Should be possible to change keybindings",
+                        "title": ""
+                    }
+                }
+            }
+        ],
+        [
+            "blocks",
+            13,
+            {
+                "r": {
+                    "type": "yrequirement",
+                    "id": "HXqUOK9Xj_",
+                    "data": {
+                        "id": "",
+                        "content": "Should be possible to change keybindings",
+                        "title": ""
+                    }
+                },
+                "i": {
+                    "type": "yrequirement",
+                    "id": "HXqUOK9Xj_",
+                    "data": {
+                        "id": "",
+                        "content": "Should be possible to change keybindings",
+                        "title": ""
+                    }
+                }
+            }
+        ],
+        [
+            "blocks",
+            14,
+            {
+                "i": {
+                    "type": "paragraph",
+                    "id": "v10nTBn_dY",
+                    "data": {
+                        "text": "",
+                        "id": "v10nTBn_dY"
+                    }
+                }
+            }
+        ]
+    ]
+}

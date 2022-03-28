@@ -1,0 +1,57 @@
+/* Main styles */
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    font-size: 14px;
+    line-height: 1.5em;
+    background-color: grey;
+}
+
+.codex-editor {
+    background-color: white;
+}
+
+.ce-block__content {
+    max-width: none;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+
+.menu-buttons {
+    position: fixed;
+    top: 0;
+}
+
+.ce-toolbar__actions {
+    right: none;
+    left: -65px;
+    top: 0px;
+    width: min-content;
+}
+
+.ce-toolbar__actions-buttons {
+    width: min-content;
+}
+
+.ce-block {
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.ce-block--focused {
+    border-top: 1px solid green;
+    border-bottom: 1px solid green;
+    
+}
+
+/*  */
+[contentEditable=true]:empty:not(:focus):before {
+    content:attr(placeholder);
+    color: grey;
+}
+
+[contentEditable=true]:empty:focus:before {
+    content:attr(placeholder);
+    color: grey;
+}

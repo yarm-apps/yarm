@@ -1,0 +1,45 @@
+{
+  "name": "yeditor",
+  "version": "0.0.1",
+  "description": "Visual editor for yReqif lib for Yarm project",
+  "main": "index.js",
+  "repository": "git@github.com:yarm-apps/yeditor.git",
+  "author": "YarmTools(yarm-info@protonmail.com)",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/register": "^7.15.3",
+    "@editorjs/editorjs": "^2.23.2",
+    "@types/file-saver": "^2.0.3",
+    "babel-loader": "^8.2.3",
+    "babel-plugin-class-display-name": "^2.1.0",
+    "editorjs-drag-drop": "^0.2.2",
+    "express": "^4.17.1",
+    "file-saver": "^2.0.5",
+    "git": "^0.1.5",
+    "ot-json1": "^1.0.2",
+    "webpack": "^5.58.1",
+    "webpack-cli": "^4.9.0"
+  },
+  "scripts": {
+    "start": "yarn bundle & node server.js",
+    "bundle": "webpack-cli --mode development --watch"
+  },
+  "devDependencies": {
+    "css-loader": "^6.4.0",
+    "cssnano": "^5.0.8",
+    "less-loader": "^10.2.0",
+    "postcss": "^8.3.11",
+    "postcss-apply": "^0.12.0",
+    "postcss-import": "^14.0.2",
+    "postcss-loader": "^6.2.0",
+    "postcss-nested": "^5.0.6",
+    "postcss-nested-ancestors": "^2.0.0",
+    "postcss-preset-env": "^6.7.0",
+    "raw-loader": "^4.0.2",
+    "style-loader": "^3.3.1",
+    "ts-loader": "^9.2.6",
+    "typescript": "^4.4.4"
+  }
+}
