@@ -13,7 +13,7 @@ The goal of Yarm is to provide tool a FOSS tool that would help to document the 
 
 Issues:
 - Information exchange among entities, prevent appearing of docs with names ..._final_final_v23(finally final)
-- Internal knowledge system and possibility to refer to section of documents without copypaste. E.g. you have one big document that contains information about the product that is made from many parts. If you need to share some information with your subcontractor rather than copypasting from the main document you can create a new document that refers to the main. As the result you'll get single source of trues rather than tens of document that is hard to maintain.
+- Internal knowledge system and possibility to refer to section of documents without copypaste. E.g. you have one big document that contains information about the product that is made from many parts. If you need to share some information with your subcontractor rather than copypasting from the main document you can create a new document that refers to the main. As the result you'll get single source of truth rather than tens of document that is hard to maintain.
 
 ## For whom
 - Systems Engineers
@@ -33,3 +33,5 @@ Issues:
  - [JAMA](https://www.jamasoftware.com/)
  - [objectif-rm](https://www.microtool.de/en/products/objectif-rm/download-now/)
  - [Orcanos](https://www.orcanos.com/compliance/products/requirements-management/?r=rmt&dpm=39780)
+ - [Visure](https://visuresolutions.com/requirements-management-rm-tools)
+ - [30 BEST Requirements Management Tools (Mar 2022 Update)](https://www.guru99.com/requirement-management-tools.html)
