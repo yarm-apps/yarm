@@ -10,11 +10,11 @@ module.exports = (env, argv) => {
             path: path.resolve(__dirname, 'dist'),
             filename: 'bundle.js',
         },
-        devtool: false,
         plugins: [new webpack.SourceMapDevToolPlugin({
             filename: "[file].map"
         })],
         mode: "development",
+        devtool: "source-map",
         resolve: {
             // Add `.ts` and `.tsx` as a resolvable extension.
             extensions: [".ts", ".tsx", ".js"]
