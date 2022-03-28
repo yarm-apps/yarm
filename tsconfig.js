@@ -33,8 +33,7 @@
     "src/**/*.tsx",
     "src/**/*.vue",
     "tests/**/*.ts",
-    "tests/**/*.tsx",
-    "libs/editor.js/src/codex.ts"
+    "tests/**/*.tsx"
   ],
   "exclude": [
     "node_modules"

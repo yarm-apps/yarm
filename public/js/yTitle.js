@@ -28,8 +28,6 @@ const yTitleIcons = [
     }
 ];
 
-console.log('asdkajdladklaskj');
-
 export default class yTitle extends yBlock {
     
     _inputId;
